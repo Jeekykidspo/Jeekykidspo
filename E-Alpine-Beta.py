@@ -8,7 +8,7 @@ init(autoreset=True)
 def print_logo():
     logo = f'''
 {Fore.RED} 
-   Ecole Direct Multitool for Alpine Ios Beta                                                        ░                                                                                              
+   Ecole Direct Multitool for Alpine Ios Beta                                                                                                                                                    
     '''
     print(logo)
 
