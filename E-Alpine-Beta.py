@@ -6,10 +6,10 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 def print_logo():
-    logo = f'''
+    logo = f
 {Fore.RED} 
    Ecole Direct Multitool for Alpine Ios Beta                                                                                                                                                    
-    '''
+    
     print(logo)
 
 def ping_ip():
