@@ -98,4 +98,4 @@ def main():
             print(f"{Fore.RED}Invalid choice. Please select a valid option.")
 
 if _name_ == "__main__":
-    main(ecoledirect)
+    main()
