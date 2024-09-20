@@ -57,12 +57,12 @@ def display_ip_config():
     print(response)
 
 def generate_chat(length):
-    characters = string.ascii_uppercase + string.digits
+    characters = string.number + string.digits
     return ''.join(random.choice(characters) for _ in range(length))
 
 def generate_chat():
     num_codes = 1
-    code_length = 6
+    code_length = 4
     
     print(f"{Fore.MAGENTA}Gen possible chat...:")
     for _ in range(num_codes):
@@ -98,5 +98,3 @@ def main():
 
 if _name_ == "__main__":
     main()
-def remove_non_ascii(s):
-    return "".join(c for c in s if ord(c)<128)
